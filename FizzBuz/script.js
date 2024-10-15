@@ -14,6 +14,7 @@ for(i = 1; i < 101; i++){
     if(i % 3 == 0){
         //modifico la variabile
         stampa += "Fizz";
+        //è effettivamente divisibile
         isMultiplo = true;
     }
 
@@ -21,6 +22,7 @@ for(i = 1; i < 101; i++){
     if(i % 5 == 0){
         //modifico la variabile
         stampa += "Buzz";
+        //è effettivamente divisibile
         isMultiplo = true;
     }
 
@@ -30,6 +32,7 @@ for(i = 1; i < 101; i++){
         console.log(stampa);
         // resetto la variabile
         stampa = "";
+        isMultiplo = false;
     }
 
     else{
